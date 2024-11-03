@@ -1,0 +1,104 @@
+# SBT and Scala
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+.sbt/
+.cache/
+.history/
+
+# SBT Plugins
+project/project/
+project/target/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Scala and Java Class files
+*.class
+*.lo
+*.la
+*.o
+*.so
+*.dylib
+*.dll
+
+# IDE configurations
+.vscode/
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbs.db (Windows)
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python virtual environments and packages
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Configuration files
+local.conf
+application.conf
+.env
+
+# Spark specific directories
+metastore_db/
+derby.log
+spark-warehouse/
+hive/
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+*.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+pom.xml.*
+dependency-reduced-pom.xml
+release.properties
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary and log files
+tmp/
+log/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+hs_err_pid*
